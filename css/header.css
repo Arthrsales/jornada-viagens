@@ -3,9 +3,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
 
     padding: 38px 48px;
-    background-color: var(--backgoun-tertiary-color);
+    background-color: var(--backgroun-tertiary-color);
 }
 
 .logo{
@@ -21,8 +22,27 @@ header {
 
 input[type="checkbox"]:checked ~ nav{
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--backgroun-tertiary-color);
 }
 
 nav{
     display: none;
+}
+
+.list-link{
+    list-style: none;;
+}
+
+.list-link li{
+    margin: 16px 0 ;
+}
+
+.list-link li a {
+    color: var(--text-secondy-color);
+    text-decoration: none;
+
 }
