@@ -1,7 +1,7 @@
-.destinations {
+/*.destinations {
   width: 312px;
-  margin: 0 auto;
-}
+  margin: 0 auto 88px;
+}*/
 
 .destination-items {
   display: flex;
@@ -9,14 +9,6 @@
   align-items: center;
   gap: 24px;
   margin-bottom: 64px;
-}
-
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
 }
 
 .destination-items .img-item {

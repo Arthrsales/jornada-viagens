@@ -59,6 +59,11 @@ section.hero {
   margin: 0;
 }
 
+.section-title {
+  width: 253px;
+  margin: 0 auto;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -95,6 +100,10 @@ section.hero {
   .section-title h2 {
     font-size: 32px;
   }
+
+  .section-title {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -107,7 +116,7 @@ section.hero {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   section {
     width: 1200px;
   }

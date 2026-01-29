@@ -1,4 +1,4 @@
-header {
+.main-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,8 +82,8 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
-    padding: 38px 120px;
+  .main-header {
+    padding: 38px 30px;
   }
 
   .logo {
@@ -104,8 +104,8 @@ nav {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  header {
-    padding: 38px 160px;
+@media screen and (min-width: 1440px) {
+  .main-header {
+    padding: 38px 50px;
   }
 }
