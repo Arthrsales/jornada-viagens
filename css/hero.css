@@ -1,6 +1,7 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.hero-pacotes .hero-img {
+.hero-pacotes .hero-img,
+.bottom-hero-pacotes .hero-img {
   width: 100%;
   height: 400px;
 }
@@ -17,11 +18,30 @@
   background-repeat: no-repeat;
 }
 
+.bottom-hero-pacotes .hero-img {
+  background: url(../img/bottom-hero-pacotes-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero-pacotes .hero-img{
   background: url(../img/hero-pacotes-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 460px ;
+  margin-bottom: 88px;
+}
+
+.hero-pacotes h1{
+  color: var(--text-secondy-color);
+  font-size: 50px;
+  padding: 64px 24px 0;
+}
+
+.hero-pacotes p{
+  color: var(--text-secondy-color);
+  font-size: 21px;
+  padding: 0 24px;
 }
 
 .hero h2 {

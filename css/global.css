@@ -56,7 +56,8 @@ section {
 
 section.hero,
 section.bottom-hero,
-section.hero-pacotes {
+section.hero-pacotes,
+section.bottom-hero-pacotes {
   width: 100%;
   margin: 0;
 }
@@ -70,6 +71,14 @@ section.hero-pacotes {
 
 .section-title hr {
   margin: 16px auto 32px;
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.section-title-pacotes hr {
+  margin: 16px 24px 32px;
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
