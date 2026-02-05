@@ -1,8 +1,6 @@
-.hero .hero-img {
-  width: 100%;
-  height: 400px;
-}
-.bottom-hero .hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img,
+.hero-pacotes .hero-img {
   width: 100%;
   height: 400px;
 }
@@ -17,6 +15,13 @@
   background: url(../img/hero-bottom-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero-pacotes .hero-img{
+  background: url(../img/hero-pacotes-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px ;
 }
 
 .hero h2 {
