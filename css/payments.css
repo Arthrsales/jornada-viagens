@@ -1,4 +1,5 @@
-.payments .image-gallery {
+.payments .image-gallery,
+.payments .image-gallery-pacotes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -29,6 +30,28 @@
   grid-column: span 2;
 }
 
+.payments .content-container .image-gallery-pacotes .image.first {
+  background: url(../img/payments-japao1\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery-pacotes .image.second {
+  background: url(../img/payments-japao2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery-pacotes .image.thirdy {
+  background: url(../img/payments-japao3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery-pacotes .image.colspan-2 {
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery-tablet-first.png);
@@ -47,9 +70,29 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /*Pacotes*/
+  .payments .content-container .image-gallery-pacotes .image.first {
+  background: url(../img/payments-destinos-tablet-desktop-first.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
+.payments .content-container .image-gallery-pacotes .image.second {
+  background: url(../img/payments-destinos-tablet-desktop-second.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery-pacotes .image.thirdy {
+  background: url(../img/payments-destinos-tablet-desktop-thirdy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery-tablet-first.png);
     background-repeat: no-repeat;
