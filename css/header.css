@@ -55,6 +55,10 @@ nav {
   font-size: 24px;
 }
 
+.list-link .navigation-pacotes-link{
+  text-decoration: underline !important;
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
@@ -78,6 +82,7 @@ nav {
 
   .navigation-menu li {
     margin-top: 0;
+    color: var(--backgroun-primary-color);
   }
 }
 
