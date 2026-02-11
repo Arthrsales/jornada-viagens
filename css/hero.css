@@ -1,7 +1,7 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
 .hero-pacotes .hero-img,
-.bottom-hero-pacotes .hero-img {
+.bottom-hero-pacotes .hero-img .hero-blog .hero-img {
   width: 100%;
   height: 400px;
 }
@@ -18,6 +18,8 @@
   background-repeat: no-repeat;
 }
 
+/*Pacotes*/
+
 .hero-pacotes .hero-img {
   background: url(../img/hero-pacotes-mobile.png);
   background-size: cover;
@@ -32,13 +34,25 @@
   background-repeat: no-repeat;
 }
 
-.hero-pacotes h1 {
+/*Blog*/
+
+.hero-blog .hero-img {
+  background: url(../img/hero-blog-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+  margin-bottom: 88px;
+}
+
+/*text*/
+
+.hero-text h1 {
   color: var(--text-secondy-color);
   font-size: 50px;
   padding: 64px 24px 0;
 }
 
-.hero-pacotes p {
+.hero-text p {
   color: var(--text-secondy-color);
   font-size: 21px;
   padding: 0 24px;
@@ -74,6 +88,8 @@
     font-size: 32px;
   }
 
+  /*Pacotes*/
+
   .hero-pacotes .hero-img {
     background: url(../img/hero-destinos-tablet-desktop.png);
     background-size: cover;
@@ -90,17 +106,26 @@
     height: 400px;
   }
 
-  .hero-pacotes .hero-img h1{
+  .hero-text .hero-img h1 {
     padding: 209px 0 0 120px;
   }
 
-  .hero-pacotes .hero-img p {
+  .hero-text .hero-img p {
     padding: 0px 69px 107px 120px;
     font-size: 30px;
   }
 
-  .section-title-pacotes{
+  .section-title-pacotes {
     padding: 0 0 0 100px;
+  }
+
+  /*Blog*/
+  .hero-blog .hero-img {
+    background: url(../img/hero-blog-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    margin-bottom: 88px;
   }
 }
 
@@ -123,6 +148,8 @@
     padding: 88px 120px;
   }
 
+  /*Pacotes*/
+
   .hero-pacotes .hero-img {
     background: url(../img/hero-destinos-tablet-desktop.png);
     background-size: cover;
@@ -137,5 +164,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+  }
+
+  /*Blog*/
+  .hero-blog .hero-img {
+    background: url(../img/hero-blog-desktop-1024.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    margin-bottom: 88px;
   }
 }

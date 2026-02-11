@@ -57,7 +57,8 @@ section {
 section.hero,
 section.bottom-hero,
 section.hero-pacotes,
-section.bottom-hero-pacotes {
+section.bottom-hero-pacotes,
+section.hero-blog {
   width: 100%;
   margin: 0;
 }
@@ -120,7 +121,7 @@ section.bottom-hero-pacotes {
   }
 
   .content-title {
-    font-size: 44px;
+    font-size: 30px;
     font-weight: var(--titles-weight);
   }
 }
