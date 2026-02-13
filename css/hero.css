@@ -45,6 +45,21 @@
   margin-bottom: 88px;
 }
 
+/*Contato*/
+.hero-contato .hero-img {
+  background: url(../img/hero-contato-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+  margin-bottom: 88px;
+}
+
+.bottom-hero-contato .hero-img {
+  background: url(../img/bottom-hero-contato-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+}
 /*text*/
 
 .hero-text h1 {
@@ -128,6 +143,24 @@
     height: 620px;
     margin-bottom: 88px;
   }
+
+  /*Contato*/
+
+  .hero-contato .hero-img {
+    height: 620px;
+
+    background-image: url(../img/hero-contato-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% center;
+  }
+
+  .bottom-hero-contato .hero-img {
+    height: 400px;
+    background: url(../img/bottom-hero-contato-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -158,6 +191,7 @@
     background-position: 70% center;
     height: 620px;
     margin-bottom: 88px;
+    padding: 0 300px 0 0;
   }
 
   .bottom-hero-pacotes .hero-img {
@@ -174,5 +208,17 @@
     background-repeat: no-repeat;
     height: 620px;
     margin-bottom: 88px;
+    padding: 0 300px 0 0;
+  }
+
+  /*Contato*/
+
+  .hero-contato .hero-img {
+    height: 620px;
+
+    background-image: url(../img/hero-contato-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 300px 0 0;
   }
 }

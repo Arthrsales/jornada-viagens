@@ -151,7 +151,6 @@
   }
 
   .destination-items .item.chegada p {
-    width: auto;
     margin: 0 20px 0 0;
   }
 
@@ -169,10 +168,38 @@
     background-repeat: no-repeat;
     height: 300px;
   }
+
+    .destination-items .item.osaka-blog .img-item {
+    background: url(../img/osaka-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 224px;
+  }
+
+  .destination-items .item.hiroshima-blog .img-item {
+    background: url(../img/hiroshima-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 224px;
+  }
+
+  .destination-items .item.kyoto-blog .img-item {
+    background: url(../img/kyoto-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 224px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .destinations {
     width: 1200px;
+  }
+
+  .destination-items .item.chegada{
+    width: 1200px;
+  }
+  .destination-items .item.chegada p{
+    width: 612px;
   }
 }
