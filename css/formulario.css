@@ -1,0 +1,84 @@
+.formulario {
+  width: 300px;
+  
+}
+
+ .linha {
+  display: flex;
+  flex-direction: column;
+  gap: 64px; 
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  font-family: Arial, sans-serif;
+  margin-top: 56px;
+}
+
+#text-form {
+  text-align: center;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  padding: 8px 0;
+  outline: none;
+  font-size: 15px;
+  font-size: 18px;
+}
+
+input:focus {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Textarea diferente, com borda normal */
+textarea {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  resize: none;
+}
+
+@media screen and (min-width: 768px) {
+  .formulario {
+    width: 620px;
+  }
+  .button-contato {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formulario {
+    width: 900px;
+  }
+
+  .forms{
+    margin: 56px 205px;
+  }
+
+  .linha {
+    display: flex;
+    gap: 40px;
+  }
+
+  .linha .campo {
+    flex: 1;
+  }
+}

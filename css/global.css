@@ -58,7 +58,9 @@ section.hero,
 section.bottom-hero,
 section.hero-pacotes,
 section.bottom-hero-pacotes,
-section.hero-blog {
+section.hero-blog,
+section.hero-contato,
+section.bottom-hero-contato {
   width: 100%;
   margin: 0;
 }
